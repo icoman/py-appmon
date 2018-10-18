@@ -1,0 +1,28 @@
+;
+;
+; test
+;
+
+[demo 1]
+RUNCMD = c:\python27\pythonw app.py test 1
+RESTART_WAIT = 3
+A = 2
+B = 3
+C = 123
+
+
+[demo 2]
+RUNCMD = c:\python27\pythonw app.py test 2
+A1 = 24
+B1 = 53
+
+
+
+[demo 3]
+RUNCMD = c:\python27\pythonw app.py test 3
+t1=100
+t2=200
+t3=300
+
+
+

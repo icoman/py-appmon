@@ -1,0 +1,34 @@
+;
+;
+; test
+;
+
+[cantar 1]
+RUNCMD = c:\python27\pythonw appcantar.py 1 112
+WORK_FOLDER = D:\MyData\Programming\Python\_APP MON Fabrica\app giveaway
+SCALE=5
+IGNOREFACTOR=10
+SAMPLES=500
+;STEPS=64
+DSN = mssql+pymssql://monuser:usermon@localhost/mon_ambalare
+
+[cantar 2]
+RUNCMD = c:\python27\pythonw appcantar.py 2
+WORK_FOLDER = D:\MyData\Programming\Python\_APP MON Fabrica\app giveaway
+SCALE=5
+IGNOREFACTOR=10
+SAMPLES=500
+;STEPS=64
+DSN = mssql+pymssql://monuser:usermon@localhost/mon_ambalare
+
+[cantar 3]
+RUNCMD = c:\python27\pythonw appcantar.py 3
+WORK_FOLDER = D:\MyData\Programming\Python\_APP MON Fabrica\app giveaway
+SCALE=5
+IGNOREFACTOR=10
+SAMPLES=500
+;STEPS=64
+DSN = mssql+pymssql://monuser:usermon@localhost/mon_ambalare
+
+
+
