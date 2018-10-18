@@ -5,7 +5,7 @@ used to start and restart a list of tasks defined in a config file.
 
 In [Windows](https://www.microsoft.com/en-us/windows) any python script 
 with no GUI (just console) and started under **pythonw.exe** will not show 
-a title in windows taskbar.
+a title in taskbar.
 
 This application is inspired by [hstart](https://www.ntwind.com/software/hstart.html) 
 and [Erlang supervisor](http://erlang.org/doc/man/supervisor.html).
